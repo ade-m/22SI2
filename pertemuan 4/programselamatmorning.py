@@ -1,4 +1,5 @@
 #input
+diskon = 0
 namapelanggan = input("Masukkan Nama Pelanggan ")
 pesanan = input("Masukkan Nama Pesanan ")
 totalbelanja = int(input("Masukkan Total Bayar "))
@@ -13,6 +14,7 @@ if "agus" in namapelanggan or "Agus" in namapelanggan :
         print("Diskon : Agus 40%")
     else :
         diskon = 0
+        
     
 totalbayar = totalbelanja - diskon
 print("Diskon (IDR) : ",diskon)
