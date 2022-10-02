@@ -16,3 +16,8 @@ for i in range(9,-1,-1) :
 print("ini adalah akhir perulangan")
 
 #for (int i =10; i>=0;i--)
+
+
+
+
+
