@@ -7,10 +7,10 @@
 # 88 8 0        89 10 3
 
 #deklarasi
-A = [[12,24,56],[12,78,55],[1,2,3]]
-B = [[1,2,3],[99,90,5],[88,8,0]]
+A = [[12,24,56,20],[12,78,55,30],[1,2,3,10]]
+B = [[1,2,3,23],[99,90,5,32],[88,8,0,18]]
 C = [[13,26,59],[111,168,60],[89,10,3]]
-D = [[0,0,0],[0,0,0],[0,0,0]]
+E = [[0,0,0,0],[0,0,0,0],[0,0,0,0]]
 
 print(len(A),len(A[2]))
 print(A)
@@ -20,7 +20,7 @@ print(A)
 for i in range(0,len(A)):
     #perulangan utk kolom
     for j in range(0,len(A[0])):
-       D[i][j] = A[i][j] - B[i][j]
+       E[i][j] = A[i][j] - B[i][j]
 
 
 #cetak C
@@ -28,7 +28,7 @@ for i in range(0,len(A)):
 for i in range(0,len(A)):
     #perulangan utk kolom
     for j in range(0,len(A[0])):
-        print(C[i][j], end="\t")
+        print(E[i][j], end="\t")
     print()
 
     

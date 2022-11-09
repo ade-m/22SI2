@@ -28,7 +28,7 @@ for i in range(0,len(A)):
 for i in range(0,len(A)):
     #perulangan utk kolom
     for j in range(0,len(A[0])):
-        print(C[i][j], end="\t")
+        print(D[i][j], end="\t")
     print()
 
     
